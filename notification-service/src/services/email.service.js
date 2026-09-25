@@ -40,7 +40,7 @@ class EmailService {
           const msg = {
                to: email,
                from: this.from,
-               subject: 'Your DesignKarle verification code',
+               subject: 'Your Travora verification code',
                html: getOtpTemplate(otp, ttlMinutes),
           };
 
@@ -51,7 +51,7 @@ class EmailService {
           const msg = {
                to: email,
                from: this.from,
-               subject: 'Welcome to DesignKarle - Email Verified',
+               subject: 'Welcome to Travora - Email Verified',
                html: getWelcomeTemplate(firstName),
           };
 
